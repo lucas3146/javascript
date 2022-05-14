@@ -64,6 +64,7 @@ document.write(`O número da semana é ${xDia+1}`)
 document.write(`<p> <b> hoje é ${diaSemana[xDia]}`)
 */
 
+/*
 hoje = new Date()
 xDia = hoje.getDay()
 diaSemana = new Array(7)
@@ -100,3 +101,20 @@ document.write(`<p> Hoje teremos ${pratoDia[xDia]} <p>`)
 document.write(`<p>O valor do prato de hoje é ${precoPrato[xDia]}<p>`)
 document.write(`HOje teremos ${pratoDia[xDia]} por apenas ${precoPrato[xDia]} `)
 
+*/
+
+/*
+for(i = 1; i<5 ; 1++){
+    document.write(`Está é a linha ${i} <br>`)
+}
+*/
+
+
+valor = new Array(3,2,4,1,5)
+i = 0
+total = 0
+while(total < 10){
+    total+=valor[i]; i++;
+}
+
+document.write (`Total ${total}`)

@@ -110,11 +110,12 @@ for(i = 1; i<5 ; 1++){
 */
 
 
-valor = new Array(3,2,4,1,5)
+valor = new Array(3, 2, 4, 1, 5)
 i = 0
 total = 0
-while(total < 10){
-    total+=valor[i]; i++;
+while (total < 10) {
+    total += valor[i];
+    i++;
 }
 
-document.write (`Total ${total}`)
+document.write(`Total ${total}`)
